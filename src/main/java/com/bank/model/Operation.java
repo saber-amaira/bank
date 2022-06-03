@@ -16,6 +16,9 @@ public class Operation {
 
     private OperationType type;
 
+    //@ManyToOne
+    private Account account;
+
     private BigDecimal amount;
 
     private LocalDateTime createdAt;
