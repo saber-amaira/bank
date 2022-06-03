@@ -27,6 +27,8 @@ public class AccountController {
 
         Account account = accountService.update(id, operation);
 
+        operationService.save(operation);
+
         return ResponseEntity.ok(account);
     }
 

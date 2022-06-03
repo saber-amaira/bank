@@ -7,6 +7,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class OperationServiceImpl implements OperationService {
+
+    public void save(Operation operation) {
+        // todo
+    }
+
     @Override
     public List<Operation> getOperationsByAccountId(Long accountId) {
         // repository call getByAccountId
